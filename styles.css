@@ -4,8 +4,9 @@
 }
 
 @font-face {
-    font-family: Source Code Pro;
+    font-family: Sauce;
     src: local('/assets/SourceCodePro-VariableFont_wght.ttf');
+    src:url('./assets/SourceCodePro-VariableFont_wght.ttf');
 }
 
 .row { 
@@ -30,14 +31,14 @@
 button{
     padding: 1rem 1.5rem;
     height: fit-content;
-    font-family: Source Code Pro;
+    font-family: Sauce;
     cursor: pointer;
 }
 
 body{
     font-size: smaller;
     background: wheat; 
-    font-family: Source Code Pro;
+    font-family: Sauce;
 }
 
 #container{
